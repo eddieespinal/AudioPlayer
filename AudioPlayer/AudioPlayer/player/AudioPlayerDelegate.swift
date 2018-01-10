@@ -65,7 +65,7 @@ public protocol AudioPlayerDelegate: class {
     ///   - item: Current item.
     func audioPlayer(_ audioPlayer: AudioPlayer, didLoad range: TimeRange, for item: AudioItem)
     
-    func audioPlayer(_ audioPlayer: AudioPlayer, didChannelPowerChange: [Float])
+    func audioPlayer(_ audioPlayer: AudioPlayer, didChannelPowerChange forLeft: Float, andRight: Float)
 }
 
 public extension AudioPlayerDelegate {
@@ -81,4 +81,6 @@ public extension AudioPlayerDelegate {
     func audioPlayer(_ audioPlayer: AudioPlayer, didUpdateEmptyMetadataOn item: AudioItem, withData data: Metadata) {}
 
     func audioPlayer(_ audioPlayer: AudioPlayer, didLoad range: TimeRange, for item: AudioItem) {}
+    
+    func audioPlayer(_ audioPlayer: AudioPlayer, didChannelPowerChange forLeft: Float, andRight: Float) {}
 }
