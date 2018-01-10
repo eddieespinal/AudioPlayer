@@ -69,6 +69,7 @@ public class AudioPlayer: NSObject {
                 networkEventProducer.startProducingEvents()
                 audioItemEventProducer.startProducingEvents()
                 qualityAdjustmentEventProducer.startProducingEvents()
+                channelPowerEventProducer.player = player
                 channelPowerEventProducer.startProducingEvents()
             } else {
                 playerEventProducer.player = nil
@@ -77,7 +78,6 @@ public class AudioPlayer: NSObject {
                 networkEventProducer.stopProducingEvents()
                 audioItemEventProducer.stopProducingEvents()
                 qualityAdjustmentEventProducer.stopProducingEvents()
-                channelPowerEventProducer.startProducingEvents()
             }
         }
     }
@@ -436,6 +436,8 @@ extension AudioPlayer: EventListener {
             handleRetryEvent(from: eventProducer, with: event)
         } else if let event = event as? SeekEventProducer.SeekEvent {
             handleSeekEvent(from: eventProducer, with: event)
+        } else if let event = event as? ChannelPowerEventProducer.ChannelPowerEvent {
+            handleChannelPowerEvent(from: eventProducer, with: event)
         }
     }
 }

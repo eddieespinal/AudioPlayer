@@ -14,7 +14,11 @@ class ChannelPowerEventProducer: EventProducer {
         player.isMeteringEnabled = true
         timeObserver = player.addPeriodicTimeObserver(forInterval: CMTimeMake(1, 2), queue: .main) { [weak self] time in
             if let `self` = self {
-                self.eventListener?.onEvent(ChannelPowerEvent.powerChanged(left: player.averagePower(forChannel: 0), right: player.averagePower(forChannel: 1)), generetedBy: self)
+                self.eventListener?.onEvent(
+                    ChannelPowerEvent.powerChanged(
+                        left: player.averagePower(forChannel: 0) / player.peakPower(forChannel: 0),
+                        right: player.averagePower(forChannel: 1) / player.peakPower(forChannel: 1)),
+                    generetedBy: self)
             }
         }
     }

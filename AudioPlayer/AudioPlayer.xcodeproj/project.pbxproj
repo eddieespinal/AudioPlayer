@@ -124,6 +124,9 @@
 		8C04B1D72005AA5C007D7024 /* ChannelPowerEventProducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C04B1D62005AA5C007D7024 /* ChannelPowerEventProducer.swift */; };
 		8C04B1D82005AA5C007D7024 /* ChannelPowerEventProducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C04B1D62005AA5C007D7024 /* ChannelPowerEventProducer.swift */; };
 		8C04B1D92005AA5C007D7024 /* ChannelPowerEventProducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C04B1D62005AA5C007D7024 /* ChannelPowerEventProducer.swift */; };
+		8C04B1DB2005B1E1007D7024 /* AudioPlayer+ChannelPowerEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C04B1DA2005B1E1007D7024 /* AudioPlayer+ChannelPowerEvent.swift */; };
+		8C04B1DC2005B1E1007D7024 /* AudioPlayer+ChannelPowerEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C04B1DA2005B1E1007D7024 /* AudioPlayer+ChannelPowerEvent.swift */; };
+		8C04B1DD2005B1E1007D7024 /* AudioPlayer+ChannelPowerEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C04B1DA2005B1E1007D7024 /* AudioPlayer+ChannelPowerEvent.swift */; };
 		BB5E356D1EC3738F001BF508 /* AudioPlayerBufferingStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5E356C1EC3738F001BF508 /* AudioPlayerBufferingStrategy.swift */; };
 		BBEC49BA1EC8D2C300BAB484 /* AudioPlayerBufferingStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5E356C1EC3738F001BF508 /* AudioPlayerBufferingStrategy.swift */; };
 		BBEC49BB1EC8D2C400BAB484 /* AudioPlayerBufferingStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5E356C1EC3738F001BF508 /* AudioPlayerBufferingStrategy.swift */; };
@@ -198,6 +201,7 @@
 		8C04B1C22005A962007D7024 /* AVPlayer+ACBHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AVPlayer+ACBHelper.m"; sourceTree = "<group>"; };
 		8C04B1C32005A962007D7024 /* MYAudioTapProcessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYAudioTapProcessor.m; sourceTree = "<group>"; };
 		8C04B1D62005AA5C007D7024 /* ChannelPowerEventProducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelPowerEventProducer.swift; sourceTree = "<group>"; };
+		8C04B1DA2005B1E1007D7024 /* AudioPlayer+ChannelPowerEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AudioPlayer+ChannelPowerEvent.swift"; sourceTree = "<group>"; };
 		BB5E356C1EC3738F001BF508 /* AudioPlayerBufferingStrategy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioPlayerBufferingStrategy.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -372,6 +376,7 @@
 				467D611E1CB1119600D50807 /* AudioPlayer+QualityAdjustmentEvent.swift */,
 				467D61221CB111E800D50807 /* AudioPlayer+AudioItemEvent.swift */,
 				460FA1E41CC1814500156DFC /* AudioPlayer+RetryEvent.swift */,
+				8C04B1DA2005B1E1007D7024 /* AudioPlayer+ChannelPowerEvent.swift */,
 			);
 			path = extensions;
 			sourceTree = "<group>";
@@ -630,6 +635,7 @@
 				46DE850E1CAB07DE00F00287 /* AudioPlayer+Queue.swift in Sources */,
 				462679681AED5DDC003771C9 /* AudioPlayer.swift in Sources */,
 				8C04B1D72005AA5C007D7024 /* ChannelPowerEventProducer.swift in Sources */,
+				8C04B1DB2005B1E1007D7024 /* AudioPlayer+ChannelPowerEvent.swift in Sources */,
 				467D61231CB111E800D50807 /* AudioPlayer+AudioItemEvent.swift in Sources */,
 				BB5E356D1EC3738F001BF508 /* AudioPlayerBufferingStrategy.swift in Sources */,
 				46D3A2E91C8F4A7B00635FE4 /* NetworkEventProducer.swift in Sources */,
@@ -699,6 +705,7 @@
 				46BF0BCC1DC2DCC300560FD1 /* SeekEventProducer.swift in Sources */,
 				460FA1E11CBA946F00156DFC /* RetryEventProducer.swift in Sources */,
 				46DAE4BC1C40275F00572EB2 /* AudioPlayer.swift in Sources */,
+				8C04B1DD2005B1E1007D7024 /* AudioPlayer+ChannelPowerEvent.swift in Sources */,
 				8C04B1D92005AA5C007D7024 /* ChannelPowerEventProducer.swift in Sources */,
 				46DDB0A01C959D3C007B60C6 /* AudioItemEventProducer.swift in Sources */,
 				467D611D1CB1113500D50807 /* AudioPlayer+NetworkEvent.swift in Sources */,
@@ -728,6 +735,7 @@
 				46DE850F1CAB07DE00F00287 /* AudioPlayer+Queue.swift in Sources */,
 				46D3A2EA1C8F4A7B00635FE4 /* NetworkEventProducer.swift in Sources */,
 				8C04B1D82005AA5C007D7024 /* ChannelPowerEventProducer.swift in Sources */,
+				8C04B1DC2005B1E1007D7024 /* AudioPlayer+ChannelPowerEvent.swift in Sources */,
 				467D61241CB111E800D50807 /* AudioPlayer+AudioItemEvent.swift in Sources */,
 				BBEC49BA1EC8D2C300BAB484 /* AudioPlayerBufferingStrategy.swift in Sources */,
 				46D3A3141C93405400635FE4 /* QualityAdjustmentEventProducer.swift in Sources */,

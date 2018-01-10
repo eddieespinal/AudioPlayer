@@ -184,6 +184,9 @@ class FakeAudioPlayer: AudioPlayer {
 }
 
 class FakeAudioPlayerDelegate: AudioPlayerDelegate {
+    func audioPlayer(_ audioPlayer: AudioPlayer, didChannelPowerChange: [Float]) {
+    }
+    
     var didChangeState: ((AudioPlayer, AudioPlayerState, AudioPlayerState) -> Void)?
 
     var willStartPlaying: ((AudioPlayer, AudioItem) -> Void)?
