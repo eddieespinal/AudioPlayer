@@ -37,6 +37,7 @@ public class AudioPlayer: NSObject {
     /// The seek event producer.
     let seekEventProducer = SeekEventProducer()
 
+    let channelPowerEventProducer = ChannelPowerEventProducer()
     /// The quality adjustment event producer.
     var qualityAdjustmentEventProducer = QualityAdjustmentEventProducer()
 
@@ -68,6 +69,7 @@ public class AudioPlayer: NSObject {
                 networkEventProducer.startProducingEvents()
                 audioItemEventProducer.startProducingEvents()
                 qualityAdjustmentEventProducer.startProducingEvents()
+                channelPowerEventProducer.startProducingEvents()
             } else {
                 playerEventProducer.player = nil
                 audioItemEventProducer.item = nil
@@ -75,6 +77,7 @@ public class AudioPlayer: NSObject {
                 networkEventProducer.stopProducingEvents()
                 audioItemEventProducer.stopProducingEvents()
                 qualityAdjustmentEventProducer.stopProducingEvents()
+                channelPowerEventProducer.startProducingEvents()
             }
         }
     }
@@ -330,6 +333,7 @@ public class AudioPlayer: NSObject {
         networkEventProducer.eventListener = self
         audioItemEventProducer.eventListener = self
         qualityAdjustmentEventProducer.eventListener = self
+        channelPowerEventProducer.eventListener = self
     }
 
     /// Deinitializes the AudioPlayer. On deinit, the player will simply stop playing anything it was previously

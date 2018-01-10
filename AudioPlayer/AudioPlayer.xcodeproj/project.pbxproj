@@ -103,6 +103,27 @@
 		46F956091C97385400923EE1 /* AudioItemEventProducer_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F956081C97385400923EE1 /* AudioItemEventProducer_Tests.swift */; };
 		653E188C1C3541B8003C0CAB /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 462679671AED5DDC003771C9 /* AudioPlayer.swift */; };
 		653E188D1C3541BB003C0CAB /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466930791BAD30AB00C1E97C /* Reachability.swift */; };
+		8C04B1C42005A962007D7024 /* MYAudioTapProcessor.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C04B1BE2005A962007D7024 /* MYAudioTapProcessor.h */; };
+		8C04B1C52005A962007D7024 /* MYAudioTapProcessor.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C04B1BE2005A962007D7024 /* MYAudioTapProcessor.h */; };
+		8C04B1C62005A962007D7024 /* MYAudioTapProcessor.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C04B1BE2005A962007D7024 /* MYAudioTapProcessor.h */; };
+		8C04B1C72005A962007D7024 /* ACBAudioProcessHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C04B1BF2005A962007D7024 /* ACBAudioProcessHelper.m */; };
+		8C04B1C82005A962007D7024 /* ACBAudioProcessHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C04B1BF2005A962007D7024 /* ACBAudioProcessHelper.m */; };
+		8C04B1C92005A962007D7024 /* ACBAudioProcessHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C04B1BF2005A962007D7024 /* ACBAudioProcessHelper.m */; };
+		8C04B1CA2005A962007D7024 /* ACBAudioProcessHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C04B1C02005A962007D7024 /* ACBAudioProcessHelper.h */; };
+		8C04B1CB2005A962007D7024 /* ACBAudioProcessHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C04B1C02005A962007D7024 /* ACBAudioProcessHelper.h */; };
+		8C04B1CC2005A962007D7024 /* ACBAudioProcessHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C04B1C02005A962007D7024 /* ACBAudioProcessHelper.h */; };
+		8C04B1CD2005A962007D7024 /* AVPlayer+ACBHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C04B1C12005A962007D7024 /* AVPlayer+ACBHelper.h */; };
+		8C04B1CE2005A962007D7024 /* AVPlayer+ACBHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C04B1C12005A962007D7024 /* AVPlayer+ACBHelper.h */; };
+		8C04B1CF2005A962007D7024 /* AVPlayer+ACBHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C04B1C12005A962007D7024 /* AVPlayer+ACBHelper.h */; };
+		8C04B1D02005A962007D7024 /* AVPlayer+ACBHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C04B1C22005A962007D7024 /* AVPlayer+ACBHelper.m */; };
+		8C04B1D12005A962007D7024 /* AVPlayer+ACBHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C04B1C22005A962007D7024 /* AVPlayer+ACBHelper.m */; };
+		8C04B1D22005A962007D7024 /* AVPlayer+ACBHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C04B1C22005A962007D7024 /* AVPlayer+ACBHelper.m */; };
+		8C04B1D32005A962007D7024 /* MYAudioTapProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C04B1C32005A962007D7024 /* MYAudioTapProcessor.m */; };
+		8C04B1D42005A962007D7024 /* MYAudioTapProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C04B1C32005A962007D7024 /* MYAudioTapProcessor.m */; };
+		8C04B1D52005A962007D7024 /* MYAudioTapProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C04B1C32005A962007D7024 /* MYAudioTapProcessor.m */; };
+		8C04B1D72005AA5C007D7024 /* ChannelPowerEventProducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C04B1D62005AA5C007D7024 /* ChannelPowerEventProducer.swift */; };
+		8C04B1D82005AA5C007D7024 /* ChannelPowerEventProducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C04B1D62005AA5C007D7024 /* ChannelPowerEventProducer.swift */; };
+		8C04B1D92005AA5C007D7024 /* ChannelPowerEventProducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C04B1D62005AA5C007D7024 /* ChannelPowerEventProducer.swift */; };
 		BB5E356D1EC3738F001BF508 /* AudioPlayerBufferingStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5E356C1EC3738F001BF508 /* AudioPlayerBufferingStrategy.swift */; };
 		BBEC49BA1EC8D2C300BAB484 /* AudioPlayerBufferingStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5E356C1EC3738F001BF508 /* AudioPlayerBufferingStrategy.swift */; };
 		BBEC49BB1EC8D2C400BAB484 /* AudioPlayerBufferingStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5E356C1EC3738F001BF508 /* AudioPlayerBufferingStrategy.swift */; };
@@ -169,6 +190,14 @@
 		46F956081C97385400923EE1 /* AudioItemEventProducer_Tests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioItemEventProducer_Tests.swift; sourceTree = "<group>"; };
 		653E18801C353DD0003C0CAB /* AudioPlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AudioPlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		653E18841C353DD0003C0CAB /* Info-tvOS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-tvOS.plist"; sourceTree = "<group>"; };
+		8C04B1BC2005A89A007D7024 /* AudioPlayer-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AudioPlayer-Bridging-Header.h"; sourceTree = "<group>"; };
+		8C04B1BE2005A962007D7024 /* MYAudioTapProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYAudioTapProcessor.h; sourceTree = "<group>"; };
+		8C04B1BF2005A962007D7024 /* ACBAudioProcessHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACBAudioProcessHelper.m; sourceTree = "<group>"; };
+		8C04B1C02005A962007D7024 /* ACBAudioProcessHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACBAudioProcessHelper.h; sourceTree = "<group>"; };
+		8C04B1C12005A962007D7024 /* AVPlayer+ACBHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AVPlayer+ACBHelper.h"; sourceTree = "<group>"; };
+		8C04B1C22005A962007D7024 /* AVPlayer+ACBHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AVPlayer+ACBHelper.m"; sourceTree = "<group>"; };
+		8C04B1C32005A962007D7024 /* MYAudioTapProcessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYAudioTapProcessor.m; sourceTree = "<group>"; };
+		8C04B1D62005AA5C007D7024 /* ChannelPowerEventProducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelPowerEventProducer.swift; sourceTree = "<group>"; };
 		BB5E356C1EC3738F001BF508 /* AudioPlayerBufferingStrategy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioPlayerBufferingStrategy.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -276,6 +305,7 @@
 				46D3A2E81C8F4A7B00635FE4 /* NetworkEventProducer.swift */,
 				46DDB09D1C959D3C007B60C6 /* AudioItemEventProducer.swift */,
 				46D3A3121C93405400635FE4 /* QualityAdjustmentEventProducer.swift */,
+				8C04B1D62005AA5C007D7024 /* ChannelPowerEventProducer.swift */,
 			);
 			path = event;
 			sourceTree = "<group>";
@@ -349,11 +379,13 @@
 		46F96FC71C3682B200E56082 /* AudioPlayer */ = {
 			isa = PBXGroup;
 			children = (
+				8C04B1BD2005A92E007D7024 /* AudioProcessor */,
 				46D3A30B1C933A5F00635FE4 /* utils */,
 				46D3A2FF1C90A5D600635FE4 /* player */,
 				46D3A2FE1C90A5C600635FE4 /* item */,
 				46D3A2DB1C8F442200635FE4 /* event */,
 				466930791BAD30AB00C1E97C /* Reachability.swift */,
+				8C04B1BC2005A89A007D7024 /* AudioPlayer-Bridging-Header.h */,
 			);
 			path = AudioPlayer;
 			sourceTree = "<group>";
@@ -366,6 +398,19 @@
 			path = "AudioPlayer tvOS";
 			sourceTree = "<group>";
 		};
+		8C04B1BD2005A92E007D7024 /* AudioProcessor */ = {
+			isa = PBXGroup;
+			children = (
+				8C04B1C02005A962007D7024 /* ACBAudioProcessHelper.h */,
+				8C04B1BF2005A962007D7024 /* ACBAudioProcessHelper.m */,
+				8C04B1C12005A962007D7024 /* AVPlayer+ACBHelper.h */,
+				8C04B1C22005A962007D7024 /* AVPlayer+ACBHelper.m */,
+				8C04B1BE2005A962007D7024 /* MYAudioTapProcessor.h */,
+				8C04B1C32005A962007D7024 /* MYAudioTapProcessor.m */,
+			);
+			path = AudioProcessor;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -373,6 +418,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C04B1CA2005A962007D7024 /* ACBAudioProcessHelper.h in Headers */,
+				8C04B1C42005A962007D7024 /* MYAudioTapProcessor.h in Headers */,
+				8C04B1CD2005A962007D7024 /* AVPlayer+ACBHelper.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -380,6 +428,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C04B1CC2005A962007D7024 /* ACBAudioProcessHelper.h in Headers */,
+				8C04B1C62005A962007D7024 /* MYAudioTapProcessor.h in Headers */,
+				8C04B1CF2005A962007D7024 /* AVPlayer+ACBHelper.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -387,6 +438,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C04B1CB2005A962007D7024 /* ACBAudioProcessHelper.h in Headers */,
+				8C04B1C52005A962007D7024 /* MYAudioTapProcessor.h in Headers */,
+				8C04B1CE2005A962007D7024 /* AVPlayer+ACBHelper.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -479,7 +533,7 @@
 				TargetAttributes = {
 					4626793C1AED567D003771C9 = {
 						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0800;
+						LastSwiftMigration = 0920;
 					};
 					462679471AED567D003771C9 = {
 						CreatedOnToolsVersion = 6.3.1;
@@ -487,9 +541,11 @@
 					};
 					46DAE4B21C4026E100572EB2 = {
 						CreatedOnToolsVersion = 7.2;
+						LastSwiftMigration = 0920;
 					};
 					653E187F1C353DD0003C0CAB = {
 						CreatedOnToolsVersion = 7.2;
+						LastSwiftMigration = 0920;
 					};
 				};
 			};
@@ -573,6 +629,7 @@
 				46D3A2E51C8F489700635FE4 /* PlayerEventProducer.swift in Sources */,
 				46DE850E1CAB07DE00F00287 /* AudioPlayer+Queue.swift in Sources */,
 				462679681AED5DDC003771C9 /* AudioPlayer.swift in Sources */,
+				8C04B1D72005AA5C007D7024 /* ChannelPowerEventProducer.swift in Sources */,
 				467D61231CB111E800D50807 /* AudioPlayer+AudioItemEvent.swift in Sources */,
 				BB5E356D1EC3738F001BF508 /* AudioPlayerBufferingStrategy.swift in Sources */,
 				46D3A2E91C8F4A7B00635FE4 /* NetworkEventProducer.swift in Sources */,
@@ -587,9 +644,12 @@
 				4631A0311CA7D6F300202AA3 /* MPNowPlayingInfoCenter+AudioItem.swift in Sources */,
 				46DE85121CAB0A3200F00287 /* AudioPlayer+CurrentItem.swift in Sources */,
 				46AADEE71CA1BA5A00CF7A3D /* BackgroundHandler.swift in Sources */,
+				8C04B1C72005A962007D7024 /* ACBAudioProcessHelper.m in Sources */,
 				46D3A3231C943ECC00635FE4 /* AudioItem.swift in Sources */,
 				46D3A3041C90A93A00635FE4 /* AudioPlayerDelegate.swift in Sources */,
+				8C04B1D32005A962007D7024 /* MYAudioTapProcessor.m in Sources */,
 				467D61171CB110BD00D50807 /* AudioPlayer+PlayerEvent.swift in Sources */,
+				8C04B1D02005A962007D7024 /* AVPlayer+ACBHelper.m in Sources */,
 				4669307A1BAD30AB00C1E97C /* Reachability.swift in Sources */,
 				467D611F1CB1119600D50807 /* AudioPlayer+QualityAdjustmentEvent.swift in Sources */,
 				460FA1E51CC1814500156DFC /* AudioPlayer+RetryEvent.swift in Sources */,
@@ -635,12 +695,15 @@
 				46D3A3151C93405400635FE4 /* QualityAdjustmentEventProducer.swift in Sources */,
 				460FA1E71CC1814500156DFC /* AudioPlayer+RetryEvent.swift in Sources */,
 				46DE85141CAB0A3200F00287 /* AudioPlayer+CurrentItem.swift in Sources */,
+				8C04B1D22005A962007D7024 /* AVPlayer+ACBHelper.m in Sources */,
 				46BF0BCC1DC2DCC300560FD1 /* SeekEventProducer.swift in Sources */,
 				460FA1E11CBA946F00156DFC /* RetryEventProducer.swift in Sources */,
 				46DAE4BC1C40275F00572EB2 /* AudioPlayer.swift in Sources */,
+				8C04B1D92005AA5C007D7024 /* ChannelPowerEventProducer.swift in Sources */,
 				46DDB0A01C959D3C007B60C6 /* AudioItemEventProducer.swift in Sources */,
 				467D611D1CB1113500D50807 /* AudioPlayer+NetworkEvent.swift in Sources */,
 				46D3A3021C90A93800635FE4 /* AudioPlayerDelegate.swift in Sources */,
+				8C04B1D52005A962007D7024 /* MYAudioTapProcessor.m in Sources */,
 				467D61211CB1119600D50807 /* AudioPlayer+QualityAdjustmentEvent.swift in Sources */,
 				46D3A31D1C9340D000635FE4 /* AudioItemQueue.swift in Sources */,
 				46AADEE91CA1BA5A00CF7A3D /* BackgroundHandler.swift in Sources */,
@@ -648,6 +711,7 @@
 				467D61251CB111E800D50807 /* AudioPlayer+AudioItemEvent.swift in Sources */,
 				BBEC49BB1EC8D2C400BAB484 /* AudioPlayerBufferingStrategy.swift in Sources */,
 				46D3A30F1C933A8200635FE4 /* CMTime+TimeIntervalValue.swift in Sources */,
+				8C04B1C92005A962007D7024 /* ACBAudioProcessHelper.m in Sources */,
 				467D61291CB1145000D50807 /* URL+Offline.swift in Sources */,
 				46DAE4BD1C40275F00572EB2 /* Reachability.swift in Sources */,
 			);
@@ -663,6 +727,7 @@
 				46D3A2E61C8F489700635FE4 /* PlayerEventProducer.swift in Sources */,
 				46DE850F1CAB07DE00F00287 /* AudioPlayer+Queue.swift in Sources */,
 				46D3A2EA1C8F4A7B00635FE4 /* NetworkEventProducer.swift in Sources */,
+				8C04B1D82005AA5C007D7024 /* ChannelPowerEventProducer.swift in Sources */,
 				467D61241CB111E800D50807 /* AudioPlayer+AudioItemEvent.swift in Sources */,
 				BBEC49BA1EC8D2C300BAB484 /* AudioPlayerBufferingStrategy.swift in Sources */,
 				46D3A3141C93405400635FE4 /* QualityAdjustmentEventProducer.swift in Sources */,
@@ -677,9 +742,12 @@
 				4631A0321CA7D6F300202AA3 /* MPNowPlayingInfoCenter+AudioItem.swift in Sources */,
 				46DE85131CAB0A3200F00287 /* AudioPlayer+CurrentItem.swift in Sources */,
 				46AADEE81CA1BA5A00CF7A3D /* BackgroundHandler.swift in Sources */,
+				8C04B1C82005A962007D7024 /* ACBAudioProcessHelper.m in Sources */,
 				46D3A3241C943ECC00635FE4 /* AudioItem.swift in Sources */,
 				46D3A30E1C933A8200635FE4 /* CMTime+TimeIntervalValue.swift in Sources */,
+				8C04B1D42005A962007D7024 /* MYAudioTapProcessor.m in Sources */,
 				467D61181CB110BD00D50807 /* AudioPlayer+PlayerEvent.swift in Sources */,
+				8C04B1D12005A962007D7024 /* AVPlayer+ACBHelper.m in Sources */,
 				653E188D1C3541BB003C0CAB /* Reachability.swift in Sources */,
 				467D61201CB1119600D50807 /* AudioPlayer+QualityAdjustmentEvent.swift in Sources */,
 				460FA1E61CC1814500156DFC /* AudioPlayer+RetryEvent.swift in Sources */,
@@ -823,6 +891,7 @@
 				PRODUCT_MODULE_NAME = AudioPlayer;
 				PRODUCT_NAME = AudioPlayer;
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "AudioPlayer/AudioPlayer-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 			};
@@ -845,6 +914,7 @@
 				PRODUCT_MODULE_NAME = AudioPlayer;
 				PRODUCT_NAME = AudioPlayer;
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "AudioPlayer/AudioPlayer-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
@@ -883,6 +953,7 @@
 		46DAE4B81C4026E200572EB2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -900,6 +971,8 @@
 				PRODUCT_NAME = AudioPlayer;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "AudioPlayer/AudioPlayer-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
@@ -907,6 +980,7 @@
 		46DAE4B91C4026E200572EB2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
@@ -923,6 +997,7 @@
 				PRODUCT_NAME = AudioPlayer;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "AudioPlayer/AudioPlayer-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
@@ -930,6 +1005,7 @@
 		653E18851C353DD0003C0CAB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
@@ -944,6 +1020,8 @@
 				PRODUCT_NAME = AudioPlayer;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "AudioPlayer/AudioPlayer-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 9.0;
@@ -953,6 +1031,7 @@
 		653E18861C353DD0003C0CAB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -966,6 +1045,7 @@
 				PRODUCT_NAME = AudioPlayer;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "AudioPlayer/AudioPlayer-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 9.0;
